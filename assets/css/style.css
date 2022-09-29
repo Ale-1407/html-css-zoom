@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.f-direction{
+    flex-direction: column;
+}
+
+.container{
+    height: 100vh;
+    background-color: #000000;
+}
+
+.cont-centr{
+    flex-grow: 2;
+}
+
+/* contenitore bottoni "header" */
+
+.speaker-view{
+    justify-content: end;
+}
+
+.but{
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    padding: 5px 7px;
+    color: white;
+    margin: 5px;
+}
+
+.fa-solid{
+    color: white;
+}
+
+/* contenitore centrale cards */
+
