@@ -17,10 +17,6 @@
     background-color: #000000;
 }
 
-.cont-centr{
-    flex-grow: 2;
-}
-
 /* contenitore bottoni "header" */
 
 .speaker-view{
@@ -41,3 +37,34 @@
 
 /* contenitore centrale cards */
 
+.cont-centr{
+    flex-grow: 2;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1.2rem;
+}
+
+.cards{
+    width: calc(100% / 7);
+    padding: 5px;
+}
+
+.cards img{
+    width: 100%;
+}
+
+/* contenitore options/icons */
+
+.options{
+    background-color: #222222;
+    width: calc(100% / 3);
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.opt-right{
+    color: red;
+    background-color: #4a4a4a;
+}
