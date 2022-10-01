@@ -79,13 +79,64 @@
 
 .options{
     background-color: #222222;
-    width: calc(100% / 3);
     justify-content: space-between;
     width: 100%;
+    color: white;
 }
 
+.options span{
+    display: block;
+    padding-top: 5px;
+}
 
-.opt-right{
-    color: red;
+/* contenitore sinistra footer*/
+
+.opt-left{
+    align-items: center;
+    margin: 10px 15px;
+}
+
+.opt-left > div {
+    text-align: center;
+    font-size: 13px;
+}
+
+.fa-chevron-up{
+    padding: 10px;
+    font-size: 8px;
+}
+
+/* contenitore centrale footer*/
+
+.opt-cent{
+    align-items: center;
+    margin: 10px 15px;
+}
+
+.opt-cent > div {
+    text-align: center;
+    font-size: 13px;
+    padding: 8px;
+}
+
+.fa-solid{
+    font-size: 20px;
+}
+
+.fa-chevron-up{
+    padding: 10px;
+    font-size: 8px;
+}
+
+.fa-share-from-square{
+    color: greenyellow;
+}
+
+/* contenitore destra footer*/
+
+.opt-right > button{
+    border: 1px solid #4a4a4a;
     background-color: #4a4a4a;
+    color: red;
+    height: 100%;
 }
