@@ -32,8 +32,9 @@
     border: 1px solid #4a4a4a;
 }
 
-.fa-solid{
+.speaker-view .fa-solid{
     color: white;
+    font-size: 12px;
 }
 
 
